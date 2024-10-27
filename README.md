@@ -38,7 +38,7 @@ PlayPals is a social music streaming platform that combines the joy of music dis
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/playpals.git
+   git clone https://github.com/ayushmaninbox/playpals.git
    cd playpals
    ```
 
