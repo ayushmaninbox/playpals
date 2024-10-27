@@ -721,3 +721,54 @@ img {
         font-size: 22px;
     }
 }
+
+.container main .trending img,
+.container .right-section .music-player .song-info img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.container .right-section .music-player .song-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+
+.container .right-section .music-player .player-actions {
+    background-color: #5773ff;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.container .right-section .music-player .player-actions .progress {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .right-section .music-player .player-actions .progress p {
+    font-size: 11px;
+}
+
+.container .right-section .music-player .player-actions .progress .progress-bar {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #919191;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.container .right-section .music-player .player-actions .progress .progress-fill {
+    height: 100%;
+    background-color: #fff;
+    width: 0;
+}
