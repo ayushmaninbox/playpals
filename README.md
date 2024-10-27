@@ -53,8 +53,6 @@ PlayPals is a social music streaming platform that combines the joy of music dis
      ```
      SPOTIFY_CLIENT_ID=your_spotify_client_id
      SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-     MONGODB_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
      ```
 
 4. Start the development server:
